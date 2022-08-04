@@ -15,7 +15,7 @@ int main() {
     scanf("%d",&userNumber);
 
 
-    if(userNumber %2 == 0){
+    if((userNumber & 1) == 0){
         printf("The number is odd = 0 \n");
         printf("The number is even = 1 \n");
     }else{
