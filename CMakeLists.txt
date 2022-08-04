@@ -8,3 +8,4 @@ project(amit_assignment C)
 
 
 add_executable(ASG_1-1 ASG_1-1.c)
+add_executable(ASG_1-2 ASG_1-2.c)
